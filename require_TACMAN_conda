@@ -1,0 +1,12 @@
+python=3.9.21
+pip
+
+dgl=2.0.0
+scanpy=1.9.3
+leidenalg
+
+# python kernel
+ipykernel
+ipywidgets
+#python-igraph=0.10.4
+python-igraph
