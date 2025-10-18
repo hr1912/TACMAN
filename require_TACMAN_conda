@@ -1,9 +1,13 @@
 # CentOS 7 
 python=3.9.13
+scanpy==1.10.3
 torchdata==0.7.0
 torch==2.1.0
 torchvision==0.16.0
 numpy==1.26.4
-dgl==1.13
+dgl==1.1.3
 igraph==0.11.9
 leidenalg==0.10.2
+ipykernel
+ipywidgets
+matplotlib
