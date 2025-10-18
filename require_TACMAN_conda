@@ -1,12 +1,9 @@
-python=3.9.21
-pip
-
-dgl=2.0.0
-scanpy=1.9.3
-leidenalg
-
-# python kernel
-ipykernel
-ipywidgets
-#python-igraph=0.10.4
-python-igraph
+# CentOS 7 
+python=3.9.13
+torchdata==0.7.0
+torch==2.1.0
+torchvision==0.16.0
+numpy==1.26.4
+dgl==1.13
+igraph==0.11.9
+leidenalg==0.10.2
