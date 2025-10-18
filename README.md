@@ -2,7 +2,7 @@
 
 ## Overview
 
-![img](./Figure1.jpg)
+![img](./Figure1.png)
 
 ## Create runtime environment
 
