@@ -1,0 +1,6 @@
+sp_ref,sp_que,path
+human,mouse,tutorial/human_mouse_dist.pkl
+mouse,human,tutorial/mouse_human_dist.pkl
+zebrafish,human,tutorial/zebrafish_human_dist.pkl
+zebrafish,mouse,tutorial/zebrafish_mouse_dist.pkl
+zebrafish,chicken,tutorial/zebrafish_chicken_dist.pkl

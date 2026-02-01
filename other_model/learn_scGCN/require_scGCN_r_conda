@@ -1,0 +1,10 @@
+r-base
+r-devtools
+jupyter_client
+r-repr
+r-irdisplay
+r-irkernel
+r-tidyverse
+r-ggrastr
+r-seurat=5.0.0
+r-entropy

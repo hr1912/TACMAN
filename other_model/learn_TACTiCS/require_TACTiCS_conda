@@ -1,0 +1,17 @@
+python
+ipykernel
+
+numpy
+pandas
+openpyxl
+xlrd
+scipy
+matplotlib
+seaborn
+scanpy
+requests
+lxml
+
+transformers
+pytorch-cpu
+biopython
