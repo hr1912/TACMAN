@@ -1,0 +1,12 @@
+path_adata_ref: ./data/mtx/MCA_Spleen
+path_adata_que: ./data/mtx/HCL_Spleen
+key_class_ref: cell_type
+key_class_que: cell_type
+sp_ref: mouse
+sp_que: human
+tissue_name: Spleen
+resdir: ./results
+resdir_tag: batch1
+aligned: True
+n_epochs: [0]
+models: ["TOSICA"]

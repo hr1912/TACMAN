@@ -1,0 +1,9 @@
+tissue_name: Spleen
+path_adata_ref: ./data/mtx/MCA_Spleen
+path_adata_que: ./data/mtx/HCL_Spleen
+sp_ref: mouse
+sp_que: human
+key_cell_type: cell_type
+resdir: ./results
+resdir_tag: batch1
+aligned: True

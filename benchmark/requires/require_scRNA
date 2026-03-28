@@ -1,0 +1,13 @@
+# usage: conda create -n scRNA --file require_scRNA --yes
+r-base=4.3.3
+r-tidyverse
+r-seurat=5.0.0
+r-harmony
+r-hdf5r
+r-caret
+r-devtools
+r-repr
+r-irdisplay
+r-irkernel
+r-argparse
+ipykernel

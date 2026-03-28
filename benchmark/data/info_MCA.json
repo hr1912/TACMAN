@@ -1,0 +1,1059 @@
+{
+    "tissuedic": {
+        "Uterus": "The uterus or womb is a major female hormone-responsive reproductive sex organ of humans and most other mammals. The reproductive function of the uterus is to accept a fertilized ovum which passes through the utero-tubal junction from the fallopian tube (uterine tube). The fertilized ovum divides to become a blastocyst, which implants into the endometrium, and derives nourishment from blood vessels which develop exclusively for this purpose.",
+        "Thymus": "The thymus is a specialized primary lymphoid organ of the immune system. Within the thymus, T cells or T lymphocytes mature. That is to say, in the two thymic lobes, hematopoietic precursors from the bone-marrow, referred to as thymocytes, mature into T-cells.",
+        "Testis": "The testicle or testis is the male gonad in animals. Like the ovaries to which they are homologous, the testicles (testes) are components of both the reproductive system and the endocrine system. The primary functions of the testes are to produce sperm (spermatogenesis) and to produce androgens, primarily testosterone.",
+        "Stomach": "The stomach is a muscular, hollow organ in the gastrointestinal tract of humans and many other animals, including several invertebrates. The stomach has a dilated structure and functions as a vital digestive organ. In the digestive system the stomach is involved in the second phase of digestion, following mastication (chewing).",
+        "Stem-Cell": "Stem cells are cells that have the capacity to self-renew by dividing and to develop into more mature, specialized cells.",
+        "Spleen": "The spleen is an organ found in virtually all vertebrates. Similar in structure to a large lymph node, it acts primarily as a blood filter. The spleen plays important roles in regard to red blood cells (also referred to as erythrocytes) and the immune system. It removes old red blood cells and holds a reserve of blood, which can be valuable in case of hemorrhagic shock, and also recycles iron. As a part of the mononuclear phagocyte system, it metabolizes hemoglobin removed from senescent red blood cells (erythrocytes).",
+        "Skin": "Skin is the soft outer tissue covering vertebrates. In mammals, the skin is an organ of the integumentary system made up of multiple layers of ectodermal tissue, and guards the underlying muscles, bones, ligaments and internal organs. The skin plays a key role in protecting the body against pathogens and excessive water loss. Its other functions are insulation, temperature regulation, sensation, and the production of vitamin D folates.",
+        "Rib": "Ribs are the long curved bones which form the rib cage. In most tetrapods, ribs surround the chest, enabling the lungs to expand and thus facilitate breathing by expanding the chest cavity. They serve to protect the lungs, heart, and other internal organs of the thorax. In some animals, especially snakes, ribs may provide support and protection for the entire body.",
+        "Retina": "The retina is the third and inner coat of the eye which is a light-sensitive layer of tissue. The data of retina was from Macosko, Evan , Basu, et al. Highly Parallel Genome-wide Expression Profiling of Individual Cells Using Nanoliter Droplets[J]. Cell, 2015, 161(5):1202.",
+        "Prostate": "The prostate is an exocrine gland of the male reproductive system in most mammals. It differs considerably among species anatomically, chemically, and physiologically.",
+        "Pleura": "Pleura, plural pleurae, membrane lining the thoracic cavity (parietal pleura) and covering the lungs (visceral pleura). The parietal pleura folds back on itself at the root of the lung to become the visceral pleura.",
+        "Placenta": "The placenta is an organ that connects the developing fetus to the uterine wall to allow nutrient uptake, thermo-regulation, waste elimination, and gas exchange via the mother's blood supply; to fight against internal infection; and to produce hormones which support pregnancy.",
+        "Peripheral-Blood": "Peripheral blood is the flowing, circulating blood of the body. It is composed of erythrocytes, leukocytes and thrombocytes. These blood cells are suspended in blood plasma, through which the blood cells are circulated through the body. Peripheral blood is different from the blood whose circulation is enclosed within the liver, spleen, bone marrow and the lymphatic system. These areas contain their own specialized blood.",
+        "Pancreas": "The pancreas is a glandular organ in the digestive system and endocrine system of vertebrates. It is an endocrine gland producing several important hormones, including insulin, glucagon, somatostatin, and pancreatic polypeptide which circulate in the blood. The pancreas is also a digestive organ, secreting pancreatic juice containing bicarbonate to neutralize acidity of chyme moving in from the stomach, as well as digestive enzymes that assist digestion and absorption of nutrients in the small intestine.",
+        "Ovary": "The ovary is an ovum-producing reproductive organ, found in pairs in the female as part of the vertebrate female reproductive system. The ovaries are the site of production and periodical release of egg cells, the female gametes. In the ovaries, the developing egg cell (or oocyte) grows within the environment provided by follicles.",
+        "Omentum": "The omentum is a membranous double layer of fatty tissue that covers and supports the intestines and organs in the lower abdominal area. The omentum is made up of the greater omentum which is an important storage for fat deposits and the lesser omentum which connects the stomach and intestines to the liver.",
+        "Muscle": "Muscle is a soft tissue found in most animals. Muscle cells contain protein filaments of actin and myosin that slide past one another, producing a contraction that changes both the length and the shape of the cell. Muscles function to produce force and motion. They are primarily responsible for maintaining and changing posture, locomotion, as well as movement of internal organs, such as the contraction of the heart and the movement of food through the digestive system via peristalsis.",
+        "Mammary-Gland": "A mammary gland is an exocrine gland in mammals that produces milk to feed young offspring. The mammary glands are arranged in organs such as the breasts in primates (for example, humans and chimpanzees), the udder in ruminants (for example, cows, goats, and deer), and the dugs of other animals (for example, dogs and cats).",
+        "Lung": "The lungs are the primary organs of the respiratory system in humans and many other animals including a few fish and some snails. In mammals and most other vertebrates, two lungs are located near the backbone on either side of the heart. Their function in the respiratory system is to extract oxygen from the atmosphere and transfer it into the bloodstream, and to release carbon dioxide from the bloodstream into the atmosphere, in a process of gas exchange.",
+        "Liver": "The liver is a vital organ only found in vertebrates. The liver has a wide range of functions, including detoxification of various metabolites, protein synthesis, and the production of biochemicals necessary for digestion. It also plays a role in metabolism, regulation of glycogen storage, decomposition of red blood cells and hormone production.",
+        "Kidney": "The kidneys are two bean-shaped organs found on the left and right sides of the body in vertebrates. They filter the blood in order to make urine, to release and retain water, and to remove waste and nitrogen (the excretory system). They also control the ion concentrations and acid-base balance of the blood. Each kidney feeds urine into the bladder by means of a tube known as the ureter.",
+        "Intestine": "The small intestine or small bowel is the part of the gastrointestinal tract between the stomach and the large intestine, and is where most of the end absorption of food takes place. The small intestine has three distinct regions - the duodenum, jejunum, and ileum. The primary function of the small intestine is the absorption of nutrients and minerals from food.",
+        "Heart": "Hearts are hollow muscular organs located behind the sternum and between the lungs; its rhythmic contractions move the blood through the body.",
+        "Embryo": "An embryo is a multicellular diploid eukaryote in its earliest stage of development.",
+        "Calvaria": "The calvaria or skullcap is the upper part of the neurocranium and covers the cranial cavity containing the brain. It is made up of the superior portions of the frontal bone, occipital bone, and parietal bones.",
+        "Brain": "The Brain is an organ that serves as the center of the nervous system in all vertebrate and most invertebrate animals. The brain is located in the head, usually close to the sensory organs for senses such as vision.",
+        "Bone-Marrow": "Bone marrow is the flexible tissue in the interior of bones. The two types of bone marrow are 'red marrow' , which consists mainly of hematopoietictissue, and 'yellow marrow' (Latin: medulla ossium flava), which is mainly made up of fat cells. Red blood cells,platelets, and most white blood cells arise in red marrow. Both types of bone marrow contain numerous blood vessels and capillaries.",
+        "Bladder": "The urinary bladder is a hollow muscular organ in many animals, that collects and stores urine from the kidneys before disposal by urination. All mammals have a urinary bladder. This structure begins as an embryonic cloaca. In the vast majority, this eventually becomes differentiated into a dorsal part connected to the intestine and a ventral part which becomes associated with the urinogenital passage and urinary bladder.",
+        "Adrenal-Gland": "The adrenal glands are endocrine glands that produce a variety of hormones including adrenaline and the steroids aldosterone and cortisol. They are found above the kidneys. Each gland has an outer cortex which produces steroid hormones and an inner medulla. The adrenal cortex itself is divided into three zones: the zona glomerulosa, the zona fasciculata and the zona reticularis"
+    },
+    "tissueinfo": {
+        "Adult-Adrenal-Gland": [
+            "Adult-Adrenal-Gland",
+            "Adrenal-Gland",
+            "11815",
+            "Adult",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Adult-Bladder": [
+            "Adult-Bladder",
+            "Bladder",
+            "2746",
+            "Adult",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "One-Year-Bladder": [
+            "One-Year-Bladder",
+            "Bladder",
+            "2411",
+            "One-Year",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Eighteen-Months-Bladder": [
+            "Eighteen-Months-Bladder",
+            "Bladder",
+            "9890",
+            "Eighteen-Months",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Two-Years-Bladder": [
+            "Two-Years-Bladder",
+            "Bladder",
+            "17618",
+            "Two-Years",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Bone-Marrow": [
+            "Bone-Marrow",
+            "Bone-Marrow",
+            "9049",
+            "Adult",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Bone-Marrow_c-kit": [
+            "Bone-Marrow_c-kit",
+            "Bone-Marrow",
+            "26483",
+            "Adult",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Bone-Marrow-Mesenchyme": [
+            "Bone-Marrow-Mesenchyme",
+            "Bone-Marrow",
+            "7365",
+            "Adult",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "E18-Brain": [
+            "E18-Brain",
+            "Brain",
+            "8994",
+            "Fetal",
+            "Website",
+            "https://support.10xgenomics.com/single-cell-gene-expression/datasets/2.0.1/neuron_9k"
+        ],
+        "Fetal-Brain": [
+            "Fetal-Brain",
+            "Brain",
+            "4369",
+            "Fetal",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Neonatal-Brain": [
+            "Neonatal-Brain",
+            "Brain",
+            "9265",
+            "Neonatal",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Ten-Days-Brain": [
+            "Ten-Days-Brain",
+            "Brain",
+            "6100",
+            "Ten-Days",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Three-Weeks-Brain": [
+            "Three-Weeks-Brain",
+            "Brain",
+            "4435",
+            "Three-Weeks",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Adult-Brain": [
+            "Adult-Brain",
+            "Brain",
+            "4038",
+            "Adult",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Arc-ME": [
+            "Arc-ME",
+            "Brain",
+            "20689",
+            "Adult",
+            "Article",
+            "Campbell J N, Macosko E Z, Fenselau H, et al. A molecular census of arcuate hypothalamus and median eminence cell types[J]. Nature Neuroscience, 2017, 20(3):484."
+        ],
+        "One-Year-Brain": [
+            "One-Year-Brain",
+            "Brain",
+            "3770",
+            "One-Year",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Eighteen-Months-Brain": [
+            "Eighteen-Months-Brain",
+            "Brain",
+            "9298",
+            "Eighteen-Months",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Two-Years-Brain": [
+            "Two-Years-Brain",
+            "Brain",
+            "11900",
+            "Two-Years",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Neonatal-Calvaria": [
+            "Neonatal-Calvaria",
+            "Calvaria",
+            "7964",
+            "Neonatal",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "E6.5-E8.5-Embryo": [
+            "E6.5-E8.5-Embryo",
+            "Embryo",
+            "7484",
+            "Embryo",
+            "Article",
+            "Pijuan-Sala, B., Griffiths, J.A., Guibentif, C. et al. A single-cell molecular map of mouse gastrulation and early organogenesis. Nature 566, 490�?95 (2019). https://doi.org/10.1038/s41586-019-0933-9"
+        ],
+        "E8.25-Embryo": [
+            "E8.25-Embryo",
+            "Embryo",
+            "19386",
+            "Embryo",
+            "Article",
+            "Ibarra-Soria X, Jawaid W, Pijuan-Sala B, et al. Defining murine organogenesis at single-cell resolution reveals a role for the leukotriene pathway in regulating blood progenitor formation[J]. Nature Cell Biology, 2018."
+        ],
+        "E10.5DayEmbryo": [
+            "E10.5DayEmbryo",
+            "Embryo",
+            "26551",
+            "Embryo",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "E12.5DayEmbryo": [
+            "E12.5DayEmbryo",
+            "Embryo",
+            "73685",
+            "Embryo",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Embryonic-Mesenchyme": [
+            "Embryonic-Mesenchyme",
+            "Embryo",
+            "2771",
+            "Embryo",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Preimplantation-Embryo": [
+            "Preimplantation-Embryo",
+            "Embryo",
+            "161",
+            "Embryo",
+            "Article",
+            "Deng Q, Ramskold D, Reinius B, et al. Single-Cell RNA-Seq Reveals Dynamic, Random Monoallelic Gene Expression in Mammalian Cells[J]. Science, 2014, 343(6167):193-196. and Posfai E, Petropoulos S, de Barros FRO, Schell JP et al. Position- and Hippo signaling-dependent plasticity during lineage segregation in the early mouse embryo. Elife 2017 Feb 22;6."
+        ],
+        "Fetal-Heart": [
+            "Fetal-Heart",
+            "Heart",
+            "10123",
+            "Fetal",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Neonatal-Heart": [
+            "Neonatal-Heart",
+            "Heart",
+            "3948",
+            "Neonatal",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Ten-Days-Heart": [
+            "Ten-Days-Heart",
+            "Heart",
+            "5383",
+            "Ten-Days",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Three-Weeks-Heart": [
+            "Three-Weeks-Heart",
+            "Heart",
+            "4054",
+            "Three-Weeks",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Adult-Heart": [
+            "Adult-Heart",
+            "Heart",
+            "14245",
+            "Adult",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "One-Year-Heart": [
+            "One-Year-Heart",
+            "Heart",
+            "4092",
+            "One-Year",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Eighteen-Months-Heart": [
+            "Eighteen-Months-Heart",
+            "Heart",
+            "9617",
+            "Eighteen-Months",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Two-Years-Heart": [
+            "Two-Years-Heart",
+            "Heart",
+            "23218",
+            "Two-Years",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Fetal-Intestine": [
+            "Fetal-Intestine",
+            "Intestine",
+            "6076",
+            "Fetal",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Neonatal-Intestine": [
+            "Neonatal-Intestine",
+            "Intestine",
+            "9101",
+            "Neonatal",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Ten-Days-Intestine": [
+            "Ten-Days-Intestine",
+            "Intestine",
+            "17909",
+            "Ten-Days",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Three-Weeks-Intestine": [
+            "Three-Weeks-Intestine",
+            "Intestine",
+            "9365",
+            "Three-Weeks",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Two-Years-Intestine": [
+            "Two-Years-Intestine",
+            "Intestine",
+            "26659",
+            "Two-Years",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Small-Intestinal-Epithelium": [
+            "Small-Intestinal-Epithelium",
+            "Intestine",
+            "5831",
+            "Adult",
+            "Article",
+            "Haber, A., Biton, M., Rogel, N. et al. A single-cell survey of the small intestinal epithelium. Nature 551, 333�C339 (2017)."
+        ],
+        "One-Year-Intestine": [
+            "One-Year-Intestine",
+            "Intestine",
+            "5875",
+            "One-Year",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Eighteen-Months-Intestine": [
+            "Eighteen-Months-Intestine",
+            "Intestine",
+            "5063",
+            "Eighteen-Months",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Adult-Intestine": [
+            "Adult-Intestine",
+            "Intestine",
+            "6684",
+            "Adult",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Fetal-Kidney": [
+            "Fetal-Kidney",
+            "Kidney",
+            "9432",
+            "Fetal",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Neonatal-Kidney": [
+            "Neonatal-Kidney",
+            "Kidney",
+            "13155",
+            "Neonatal",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Ten-Days-Kidney": [
+            "Ten-Days-Kidney",
+            "Kidney",
+            "12129",
+            "Ten-Days",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Three-Weeks-Kidney": [
+            "Three-Weeks-Kidney",
+            "Kidney",
+            "5700",
+            "Three-Weeks",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Two-Years-Kidney": [
+            "Two-Years-Kidney",
+            "Kidney",
+            "10233",
+            "Two-Years",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "One-Year-Kidney": [
+            "One-Year-Kidney",
+            "Kidney",
+            "11474",
+            "One-Year",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Eighteen-Months-Kidney": [
+            "Eighteen-Months-Kidney",
+            "Kidney",
+            "8995",
+            "Eighteen-Months",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Adult-Kidney": [
+            "Adult-Kidney",
+            "Kidney",
+            "4673",
+            "Adult",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Fetal-Liver": [
+            "Fetal-Liver",
+            "Liver",
+            "2699",
+            "Fetal",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Neonatal-Liver": [
+            "Neonatal-Liver",
+            "Liver",
+            "9980",
+            "Neonatal",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Ten-Days-Liver": [
+            "Ten-Days-Liver",
+            "Liver",
+            "9259",
+            "Ten-Days",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Three-Weeks-Liver": [
+            "Three-Weeks-Liver",
+            "Liver",
+            "5867",
+            "Three-Weeks",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Adult-Liver": [
+            "Adult-Liver",
+            "Liver",
+            "4685",
+            "Adult",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "One-Year-Liver": [
+            "One-Year-Liver",
+            "Liver",
+            "9907",
+            "One-Year",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Eighteen-Months-Liver": [
+            "Eighteen-Months-Liver",
+            "Liver",
+            "8755",
+            "Eighteen-Months",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Two-Years-Liver": [
+            "Two-Years-Liver",
+            "Liver",
+            "22675",
+            "Two-Years",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Fetal-Lung": [
+            "Fetal-Lung",
+            "Lung",
+            "6453",
+            "Fetal",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Neonatal-Lung": [
+            "Neonatal-Lung",
+            "Lung",
+            "5906",
+            "Neonatal",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Ten-Days-Lung": [
+            "Ten-Days-Lung",
+            "Lung",
+            "11314",
+            "Ten-Days",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Three-Weeks-Lung": [
+            "Three-Weeks-Lung",
+            "Lung",
+            "6391",
+            "Three-Weeks",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Adult-Lung": [
+            "Adult-Lung",
+            "Lung",
+            "6940",
+            "Adult",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "One-Year-Lung": [
+            "One-Year-Lung",
+            "Lung",
+            "4976",
+            "One-Year",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Eighteen-Months-Lung": [
+            "Eighteen-Months-Lung",
+            "Lung",
+            "7302",
+            "Eighteen-Months",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Two-Years-Lung": [
+            "Two-Years-Lung",
+            "Lung",
+            "9443",
+            "Two-Years",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Lung-Mesenchyme": [
+            "Lung-Mesenchyme",
+            "Lung",
+            "5691",
+            "Adult",
+            "Article",
+            "Zepp J A, Zacharias W J, Frank D B, et al. Distinct Mesenchymal Lineages and Niches Promote Epithelial Self-Renewal and Myofibrogenesis in the Lung[J]. Cell, 2017:1134-1148."
+        ],
+        "Mammary-Gland-Involution": [
+            "Mammary-Gland-Involution",
+            "Mammary-Gland",
+            "4821",
+            "Adult",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Mammary-Gland-Lactation": [
+            "Mammary-Gland-Lactation",
+            "Mammary-Gland",
+            "13538",
+            "Adult",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Mammary-Gland-Pregrancy": [
+            "Mammary-Gland-Pregrancy",
+            "Mammary-Gland",
+            "4909",
+            "Adult",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Mammary-Gland-Virgin": [
+            "Mammary-Gland-Virgin",
+            "Mammary-Gland",
+            "5380",
+            "Adult",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Neonatal-Muscle": [
+            "Neonatal-Muscle",
+            "Muscle",
+            "4873",
+            "Neonatal",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Adult-Muscle": [
+            "Adult-Muscle",
+            "Muscle",
+            "1102",
+            "Adult",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Adult-Omentum": [
+            "Adult-Omentum",
+            "Omentum",
+            "4978",
+            "Adult",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Adult-Ovary": [
+            "Adult-Ovary",
+            "Ovary",
+            "4363",
+            "Adult",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Fetal-Pancreas": [
+            "Fetal-Pancreas",
+            "Pancreas",
+            "11983",
+            "Fetal",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Neonatal-Pancreas": [
+            "Neonatal-Pancreas",
+            "Pancreas",
+            "5639",
+            "Neonatal",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Ten-Days-Pancreas": [
+            "Ten-Days-Pancreas",
+            "Pancreas",
+            "11007",
+            "Ten-Days",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Three-Weeks-Pancreas": [
+            "Three-Weeks-Pancreas",
+            "Pancreas",
+            "4858",
+            "Three-Weeks",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Adult-Pancreas": [
+            "Adult-Pancreas",
+            "Pancreas",
+            "3610",
+            "Adult",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "One-Year-Pancreas": [
+            "Two-Years-Pancreas",
+            "Pancreas",
+            "3610",
+            "Two-Years",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Eighteen-Months-Pancreas": [
+            "Eighteen-Months-Pancreas",
+            "Pancreas",
+            "10171",
+            "Eighteen-Months",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Two-Years-Pancreas": [
+            "Two-Years-Pancreas",
+            "Pancreas",
+            "14112",
+            "Two-Years",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Pancreatic-Islet": [
+            "Pancreatic-Islet",
+            "Pancreas",
+            "1886",
+            "Adult",
+            "Article",
+            "Baron M, Veres A, Wolock S L, et al. A Single-Cell Transcriptomic Map of the Human and Mouse Pancreas Reveals Inter- and Intra-cell Population Structure[J]. Cell Syst, 2016, 3(4):346-360.e4."
+        ],
+        "Peripheral-Blood": [
+            "Peripheral-Blood",
+            "Peripheral-Blood",
+            "7095",
+            "Adult",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Placenta": [
+            "Placenta",
+            "Placenta",
+            "4346",
+            "Embryo",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Adult-Pleura": [
+            "Adult-Pleura",
+            "Pleura",
+            "4866",
+            "Adult",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "One-Year-Prostate": [
+            "One-Year-Prostate",
+            "Prostate",
+            "8129",
+            "One-Year",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Eighteen-Months-Prostate": [
+            "Eighteen-Months-Prostate",
+            "Prostate",
+            "8287",
+            "Eighteen-Months",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Two-Years-Prostate": [
+            "Two-Years-Prostate",
+            "Prostate",
+            "11561",
+            "Two-Years",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Adult-Prostate": [
+            "Adult-Prostate",
+            "Prostate",
+            "8287",
+            "Adult",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Retina": [
+            "Retina",
+            "Retina",
+            "8303",
+            "Adult",
+            "Article",
+            "Macosko, Evan , Basu, et al. Highly Parallel Genome-wide Expression Profiling of Individual Cells Using Nanoliter Droplets[J]. Cell, 2015, 161(5):1202."
+        ],
+        "Neonatal-Rib": [
+            "Neonatal-Rib",
+            "Rib",
+            "6262",
+            "Neonatal",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Neonatal-Skin": [
+            "Neonatal-Skin",
+            "Skin",
+            "3392",
+            "Neonatal",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Adult-Spleen": [
+            "Adult-Spleen",
+            "Spleen",
+            "1970",
+            "Adult",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "One-Year-Spleen": [
+            "One-Year-Spleen",
+            "Spleen",
+            "2032",
+            "One-Year",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Eighteen-Months-Spleen": [
+            "Eighteen-Months-Spleen",
+            "Spleen",
+            "5339",
+            "Eighteen-Months",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Two-Years-Spleen": [
+            "Two-Years-Spleen",
+            "Spleen",
+            "23179",
+            "Two-Years",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Embryonic-Stem-Cell": [
+            "Embryonic-Stem-Cell",
+            "Stem-Cell",
+            "9991",
+            "Stem cell",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Mesenchymal-Stem-Cell-Cultured": [
+            "Mesenchymal-Stem-Cell-Cultured",
+            "Stem-Cell",
+            "7319",
+            "Stem cell",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Trophoblast-Stem-Cell": [
+            "Trophoblast-Stem-Cell",
+            "Stem-Cell",
+            "19489",
+            "Stem cell",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Fetal-Stomach": [
+            "Fetal-Stomach",
+            "Stomach",
+            "15599",
+            "Fetal",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Neonatal-Stomach": [
+            "Neonatal-Stomach",
+            "Stomach",
+            "4073",
+            "Neonatal",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Ten-Days-Stomach": [
+            "Ten-Days-Stomach",
+            "Stomach",
+            "22599",
+            "Ten-Days",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Three-Weeks-Stomach": [
+            "Three-Weeks-Stomach",
+            "Stomach",
+            "9959",
+            "Three-Weeks",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Adult-Stomach": [
+            "Adult-Stomach",
+            "Stomach",
+            "13278",
+            "Adult",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Eighteen-Months-Stomach": [
+            "Eighteen-Months-Stomach",
+            "Stomach",
+            "18234",
+            "Eighteen-Months",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "One-Year-Stomach": [
+            "One-Year-Stomach",
+            "Stomach",
+            "10713",
+            "One-Year",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Two-Years-Stomach": [
+            "Two-Years-Stomach",
+            "Stomach",
+            "5294",
+            "Two-Years",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Fetal-Testis": [
+            "Fetal-Testis",
+            "Testis",
+            "6044",
+            "Fetal",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Neonatal-Testis": [
+            "Neonatal-Testis",
+            "Testis",
+            "9034",
+            "Neonatal",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Ten-Days-Testis": [
+            "Ten-Days-Testis",
+            "Testis",
+            "15808",
+            "Ten-Days",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Three-Weeks-Testis": [
+            "Three-Weeks-Testis",
+            "Testis",
+            "9095",
+            "Three-Weeks",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Adult-Testis": [
+            "Adult-Testis",
+            "Testis",
+            "18530",
+            "Adult",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "One-Year-Testis": [
+            "One-Year-Testis",
+            "Testis",
+            "7688",
+            "One-Year",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Eighteen-Months-Testis": [
+            "Eighteen-Months-Testis",
+            "Testis",
+            "9866",
+            "Eighteen-Months",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Two-Years-Testis": [
+            "Two-Years-Testis",
+            "Testis",
+            "15580",
+            "Two-Years",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Adult-Thymus": [
+            "Adult-Thymus",
+            "Thymus",
+            "4289",
+            "Adult",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Eighteen-Months-Thymus": [
+            "Eighteen-Months-Thymus",
+            "Thymus",
+            "4457",
+            "Eighteen-Months",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "One-Year-Thymus": [
+            "One-Year-Thymus",
+            "Thymus",
+            "2732",
+            "One-Year",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Fetal-Uterus": [
+            "Fetal-Uterus",
+            "Uterus",
+            "8462",
+            "Fetal",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Neonatal-Uterus": [
+            "Neonatal-Uterus",
+            "Uterus",
+            "4561",
+            "Neonatal",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Ten-Days-Uterus": [
+            "Ten-Days-Uterus",
+            "Uterus",
+            "4841",
+            "Ten-Days",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Three-Weeks-Uterus": [
+            "Three-Weeks-Uterus",
+            "Uterus",
+            "9077",
+            "Three-Weeks",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Adult-Uterus": [
+            "Adult-Uterus",
+            "Uterus",
+            "3739",
+            "Adult",
+            "MCA2.0",
+            "MCA2.0"
+        ],
+        "Eighteen-Months-Uterus": [
+            "Eighteen-Months-Uterus",
+            "Uterus",
+            "5833",
+            "Eighteen-Months",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "One-Year-Uterus": [
+            "One-Year-Uterus",
+            "Uterus",
+            "13405",
+            "One-Year",
+            "MCA3.0",
+            "MCA3.0"
+        ],
+        "Two-Years-Uterus": [
+            "Two-Years-Uterus",
+            "Uterus",
+            "21286",
+            "Two-Years",
+            "MCA3.0",
+            "MCA3.0"
+        ]
+    }
+}

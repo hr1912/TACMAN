@@ -1,0 +1,18 @@
+# usage: see require_TACTiCS.md
+python=3.8
+ipykernel
+
+numpy
+pandas
+openpyxl
+xlrd
+scipy
+matplotlib
+seaborn
+scanpy
+requests
+lxml
+pyyaml
+transformers
+pytorch-cpu
+biopython
