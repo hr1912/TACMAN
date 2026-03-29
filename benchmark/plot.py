@@ -245,7 +245,7 @@ for ax, measure in zip(a4p.area_yield_ax(rc=pl.rc_frame), ["F1-score", "Accuracy
     plot_t_CI(infos, models, ax, yticks)
 
     ax.set_title(get_title(sp_ref, sp_que), fontdict=dict(fontsize=8))
-    ax.set_ylabel("{}\n(mean ± SD)".format(MAP_MEASURE2LABEL[measure]))
+    ax.set_ylabel("{}\n(mean ± 95% t CI)".format(MAP_MEASURE2LABEL[measure]))
 
 
 ##################################################
@@ -290,13 +290,16 @@ for ax, measure in zip(a4p.area_yield_ax(rc=pl.rc_frame), ["F1-score", "Accuracy
     plot_t_CI(infos, models, ax, yticks)
 
     ax.set_title(get_title(sp_ref, sp_que), fontdict=dict(fontsize=8))
-    ax.set_ylabel("{}\n(mean ± SD)".format(MAP_MEASURE2LABEL[measure]))
+    ax.set_ylabel("{}\n(mean ± 95% t CI)".format(MAP_MEASURE2LABEL[measure]))
 
 fig_stem = "benchmark_{}".format(tissue)
 pl.tl_savefig(a4p.fig, "{}.png".format(fig_stem), p_benchmark)
 pl.tl_savefig(a4p.fig, "{}.jpg".format(fig_stem), p_benchmark)
 pl.tl_savefig(a4p.fig, "{}.pdf".format(fig_stem), p_benchmark)
 
+##################################################
+# save data
+##################################################
 
 p_out = p_benchmark.joinpath("benchmark_{}.xlsx".format(tissue))
 key_save_res = ["tissue", "sp_ref", "sp_que", "model", "batch", "F1-score", "Accuracy"]

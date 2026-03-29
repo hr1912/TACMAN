@@ -40,9 +40,12 @@ python script/merge_adatas.py --data data/deg/MCA --db MCA --tissue ${tissue} --
 ```
 
 
-# 03 cell_annotation
+# 03 cell annotation
 
 Cell annotation using Seurat.
+
+Cell types were assigned based on the expression of canonical marker genes, with reference to the CellMarker database (http://xteam.xbio.top/CellMarker/), combined with the differentially expressed genes identified for each cluster.
+
 
 see `cell_annotation_HCL.ipynb` and `cell_annotation_MCA.ipynb`
 
