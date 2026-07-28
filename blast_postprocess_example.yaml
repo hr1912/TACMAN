@@ -1,0 +1,39 @@
+mode: blast-postprocess
+
+species:
+  reference: C_elegans
+  query: D_melanogaster
+  query_display_name: Drosophila
+
+input:
+  reference_id_map: examples/homology/celegans_dmelanogaster/mapping/C_elegans_protein_to_gene.tsv
+  query_id_map: examples/homology/celegans_dmelanogaster/mapping/D_melanogaster_protein_to_gene.tsv
+
+columns:
+  reference_protein_id: protein_id
+  reference_gene: gene_id
+  query_protein_id: protein_id
+  query_gene: gene_id
+
+blast:
+  evalue: 1e-5
+  min_pident: 30
+  min_qcov: 50
+  min_scov: null
+  top_n: 5
+  max_target_seqs: 20
+  threads: 16
+  best_hit_tie_policy: first
+
+identifiers:
+  gene_id_type: stable_id
+
+runtime:
+  blast_workdir: examples/homology/celegans_dmelanogaster/ortholog/C_elegans_to_D_melanogaster.blast_workdir
+
+output:
+  path: examples/homology/celegans_dmelanogaster/ortholog/postprocess_first/C_elegans_to_D_melanogaster.txt
+  primary_output: all_putative
+  separator: comma
+  register_info: examples/homology/celegans_dmelanogaster/ortholog/postprocess_first/info.csv
+  overwrite_info: true

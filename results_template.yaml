@@ -1,0 +1,34 @@
+# TACMAN downstream result summarization template.
+# Relative paths are resolved from this YAML file's directory.
+input:
+  tacman_output_directory: ../output/pancreas;human-corss-mouse;pan_h-map-pan_m;aligned=True
+  prediction_table: null
+
+metadata:
+  species_key: species
+  reference_or_query_key: type
+  reference_value: ref
+  query_value: que
+  true_label_key: true_label
+  predicted_label_key: pre_label
+  model_label_key: model_label
+  confidence_key: max_prob
+  umap1_key: UMAP1
+  umap2_key: UMAP2
+
+analysis:
+  evaluate_query_labels: true
+  normalize_confusion_matrix: true
+  allow_umap_recompute: false
+
+figures:
+  format: pdf
+  dpi: 300
+  width: 7
+  height: 6
+  point_size: 5
+
+output:
+  directory: ../output_summary/pancreas
+  prefix: pancreas_tacman
+  overwrite: false

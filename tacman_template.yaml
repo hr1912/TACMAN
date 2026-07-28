@@ -1,0 +1,29 @@
+# TACMAN run configuration.
+# Relative paths are resolved relative to this YAML file.
+reference:
+  h5ad: ../data/pancreas_h/counts.h5ad
+  species: human
+  cell_type_key: cell_type
+
+query:
+  h5ad: ../data/pancreas_m/counts.h5ad
+  species: mouse
+
+homology:
+  info_csv: ../homo/info.csv
+  path: null
+  is_1v1: false
+
+analysis:
+  tissue: pancreas
+  aligned: true
+  stages: [100, 100, 100]
+
+output:
+  directory: ../output
+  tag: pan_h-map-pan_m
+  overwrite: false
+
+runtime:
+  seed: 0
+  log_level: INFO
