@@ -11,3 +11,7 @@ leidenalg==0.10.2
 ipykernel
 ipywidgets
 matplotlib
+pandas
+scikit-learn
+pyyaml
+blast
