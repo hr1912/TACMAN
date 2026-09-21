@@ -53,8 +53,9 @@ def parse_with_config(config_path: Path, config: dict, extra_cli: list[str] | No
     return args
 
 
-def test_merge_and_relative_paths(tmp: Path) -> None:
+def test_merge_and_relative_paths(tmp_path: Path) -> None:
     """Test minimal/full config merging, CLI override, and relative paths."""
+    tmp = tmp_path
     config_path = tmp / "configs" / "example.yaml"
     raw = tmp / "raw"
     write(raw / "ref.fa", ">R1 gene:RG1\nMPEPTIDE\n")
@@ -91,8 +92,9 @@ def test_merge_and_relative_paths(tmp: Path) -> None:
     assert "script_defaults" in snapshot.read_text(encoding="utf-8")
 
 
-def test_database_config(tmp: Path) -> None:
+def test_database_config(tmp_path: Path) -> None:
     """Run database mode from config-derived args."""
+    tmp = tmp_path
     config_path = tmp / "configs" / "database.yaml"
     write(
         tmp / "data" / "rat_mouse.csv",
@@ -125,8 +127,9 @@ def test_database_config(tmp: Path) -> None:
     assert (tmp / "out" / "info.csv").exists()
 
 
-def test_blast_postprocess_config(tmp: Path) -> None:
+def test_blast_postprocess_config(tmp_path: Path) -> None:
     """Run blast-postprocess mode from tiny precomputed BLAST tables."""
+    tmp = tmp_path
     config_path = tmp / "configs" / "postprocess.yaml"
     workdir = tmp / "work"
     workdir.mkdir(parents=True)
@@ -183,8 +186,9 @@ def test_blast_postprocess_config(tmp: Path) -> None:
         assert snapshot.exists()
 
 
-def test_invalid_fields(tmp: Path) -> None:
+def test_invalid_fields(tmp_path: Path) -> None:
     """Invalid numeric fields should produce field-path errors."""
+    tmp = tmp_path
     config_path = tmp / "configs" / "bad.yaml"
     config = {
         "mode": "blast",
@@ -211,8 +215,9 @@ def test_invalid_fields(tmp: Path) -> None:
         raise AssertionError("Expected invalid min_pident to fail")
 
 
-def test_no_pyyaml_message(tmp: Path) -> None:
+def test_no_pyyaml_message(tmp_path: Path) -> None:
     """The command should enter config handling even when dependencies are incomplete."""
+    tmp = tmp_path
     config_path = tmp / "minimal.yaml"
     write(
         config_path,

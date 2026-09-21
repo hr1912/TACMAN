@@ -150,8 +150,9 @@ def install_mock_tacman(captured=None):
     return captured
 
 
-def test_seed_called(tmp: Path) -> None:
+def test_seed_called(tmp_path: Path) -> None:
     """set_random_seed is called and summary records seed."""
+    tmp = tmp_path
     patch_loader()
     calls = []
     original = rt.set_random_seed
@@ -170,8 +171,9 @@ def test_seed_called(tmp: Path) -> None:
     assert summary["seed applied by"] == "mock_seed"
 
 
-def test_overwrite_behaviour(tmp: Path) -> None:
+def test_overwrite_behaviour(tmp_path: Path) -> None:
     """Output conflict handling and backup semantics."""
+    tmp = tmp_path
     patch_loader()
     cfg = parse_config(base_fixture(tmp / "fresh"))
     summary = rt.run_tacman(cfg, validate_only=True)
@@ -237,8 +239,9 @@ def test_matrix_inspection() -> None:
         raise AssertionError("Expected NaN matrix error")
 
 
-def test_validate_only_summary(tmp: Path) -> None:
+def test_validate_only_summary(tmp_path: Path) -> None:
     """Validate-only writes summary and does not call TACMAN.run."""
+    tmp = tmp_path
     patch_loader()
     summary = rt.run_tacman(parse_config(base_fixture(tmp)), validate_only=True)
     assert summary["TACMAN.run called"] is False
@@ -247,8 +250,9 @@ def test_validate_only_summary(tmp: Path) -> None:
     assert "is_1v1 expected homology pairs" in summary
 
 
-def test_yaml_fallback(tmp: Path) -> None:
+def test_yaml_fallback(tmp_path: Path) -> None:
     """Fallback parser handles the basic template and rejects advanced YAML."""
+    tmp = tmp_path
     basic = rt.SimpleYaml.safe_load("analysis:\n  stages: [100, 100, 100]\n")
     assert basic["analysis"]["stages"] == [100, 100, 100]
     try:
@@ -262,8 +266,9 @@ def test_yaml_fallback(tmp: Path) -> None:
         assert loaded["reference"]["species"] == "human"
 
 
-def test_mock_run_param_regression(tmp: Path) -> None:
+def test_mock_run_param_regression(tmp_path: Path) -> None:
     """Mock run still receives legacy TACMAN.run parameters."""
+    tmp = tmp_path
     patch_loader()
     captured = install_mock_tacman()
     summary = rt.run_tacman(parse_config(base_fixture(tmp, overwrite=True)), validate_only=False)
@@ -272,8 +277,9 @@ def test_mock_run_param_regression(tmp: Path) -> None:
         assert key in captured
 
 
-def test_optional_real_validate_only_integration(tmp: Path) -> None:
+def test_optional_real_validate_only_integration(tmp_path: Path) -> None:
     """If anndata and TACMAN are importable, run validate-only on tiny h5ad files."""
+    tmp = tmp_path
     try:
         tacman_spec = importlib.util.find_spec("TACMAN")
     except ValueError:

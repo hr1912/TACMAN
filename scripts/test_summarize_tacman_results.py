@@ -101,7 +101,7 @@ class SummarizeTacmanResultsTests(unittest.TestCase):
         self.tmp = Path(tempfile.mkdtemp(prefix="tacman_summary_test_"))
         self.config_dir = self.tmp / "configs"
         self.config_dir.mkdir()
-        self.tacman_dir = self.tmp / "output" / "pancreas;human-corss-mouse;pan_h-map-pan_m;aligned=True"
+        self.tacman_dir = self.tmp / "output" / "pancreas;human-corss-mouse;pan_h-map-pan_m"
         self.tacman_dir.mkdir(parents=True)
         self.out_dir = self.tmp / "summary"
         write_obs(self.tacman_dir / "obs.csv")

@@ -836,7 +836,7 @@ def run_summary(cfg: Dict[str, Any], validate_only: bool = False) -> int:
 
 RESULTS_TEMPLATE = """# TACMAN downstream result summarization template.
 input:
-  tacman_output_directory: ../output/pancreas;human-corss-mouse;pan_h-map-pan_m;aligned=True
+  tacman_output_directory: ../output/pancreas;human-corss-mouse;pan_h-map-pan_m
   prediction_table: null
 metadata:
   species_key: species

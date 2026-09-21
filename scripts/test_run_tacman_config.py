@@ -108,8 +108,9 @@ def parse_config(path: Path, extra=None):
     return rt.effective_config(args)
 
 
-def test_yaml_relative_and_override(tmp: Path) -> None:
+def test_yaml_relative_and_override(tmp_path: Path) -> None:
     """YAML loading, relative paths, and CLI override."""
+    tmp = tmp_path
     defaults = rt.default_config()
     assert list(defaults).count("analysis") == 1
     assert defaults["analysis"] == {"tissue": None, "aligned": True, "stages": [100, 200, 200]}
@@ -121,8 +122,9 @@ def test_yaml_relative_and_override(tmp: Path) -> None:
     assert rt.nested_get(cfg, ("analysis", "aligned")) is False
 
 
-def test_get_homo_path(tmp: Path) -> None:
+def test_get_homo_path(tmp_path: Path) -> None:
     """Unique, zero, and multiple homology matches."""
+    tmp = tmp_path
     config_path = base_fixture(tmp)
     info = tmp / "homo" / "info.csv"
     assert rt.get_homo_path("human", "mouse", info).name == "human_to_mouse.txt"
@@ -146,8 +148,9 @@ def test_get_homo_path(tmp: Path) -> None:
     assert config_path.exists()
 
 
-def test_validation_and_validate_only(tmp: Path) -> None:
+def test_validation_and_validate_only(tmp_path: Path) -> None:
     """Validation summary and validate-only path."""
+    tmp = tmp_path
     patch_loader()
     cfg = parse_config(base_fixture(tmp))
     summary = rt.run_tacman(cfg, validate_only=True)
@@ -161,8 +164,9 @@ def test_validation_and_validate_only(tmp: Path) -> None:
     assert (tmp / "output" / "pan_h-map-pan_m.run_summary.txt").exists()
 
 
-def test_metadata_missing(tmp: Path) -> None:
+def test_metadata_missing(tmp_path: Path) -> None:
     """Missing reference metadata key should fail before model run."""
+    tmp = tmp_path
     ref = FakeAdata(["G1", "G2"], ["A", "B"])
     ref.obs = FakeObs({"wrong": ["A", "B"]})
     patch_loader(ref=ref)
@@ -175,8 +179,9 @@ def test_metadata_missing(tmp: Path) -> None:
         raise AssertionError("Expected missing metadata error")
 
 
-def test_mock_tacman_run_params(tmp: Path) -> None:
+def test_mock_tacman_run_params(tmp_path: Path) -> None:
     """Mock TACMAN.run and confirm wrapper parameter passing."""
+    tmp = tmp_path
     patch_loader()
     cfg = parse_config(base_fixture(tmp), ["--is-1v1", "true", "--output-dir", str(tmp / "custom_out")])
     captured = {}
