@@ -7,7 +7,7 @@ python scripts/prepare_homology.py \
   --sp-que D_melanogaster \
   --query-display-name Drosophila \
   --ref-protein examples/homology/celegans_dmelanogaster/raw/Caenorhabditis_elegans.WBcel235.pep.all.fa \
-  --que-protein examples/homology/celegans_dmelanogaster/raw/Drosophila_melanogaster.BDGP6.46.pep.all.fa \
+  --que-protein examples/homology/celegans_dmelanogaster/raw/Drosophila_melanogaster.BDGP6.54.pep.all.fa \
   --ref-id-map examples/homology/celegans_dmelanogaster/mapping/C_elegans_protein_to_gene.tsv \
   --que-id-map examples/homology/celegans_dmelanogaster/mapping/D_melanogaster_protein_to_gene.tsv \
   --ref-protein-id-column protein_id \
