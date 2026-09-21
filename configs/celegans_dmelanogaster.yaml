@@ -6,8 +6,8 @@ species:
   query_display_name: Drosophila
 
 input:
-  reference_id_map: examples/homology/celegans_dmelanogaster/mapping/C_elegans_protein_to_gene.tsv
-  query_id_map: examples/homology/celegans_dmelanogaster/mapping/D_melanogaster_protein_to_gene.tsv
+  reference_id_map: ../examples/homology/celegans_dmelanogaster/mapping/C_elegans_protein_to_gene.tsv
+  query_id_map: ../examples/homology/celegans_dmelanogaster/mapping/D_melanogaster_protein_to_gene.tsv
 
 columns:
   reference_protein_id: protein_id

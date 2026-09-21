@@ -1,7 +1,7 @@
 # TACMAN downstream result summarization template.
 # Relative paths are resolved from this YAML file's directory.
 input:
-  tacman_output_directory: ../output/pancreas;human-corss-mouse;pan_h-map-pan_m;aligned=True
+  tacman_output_directory: ../output/pancreas;human-corss-mouse;pan_h-map-pan_m
   prediction_table: null
 
 metadata:
